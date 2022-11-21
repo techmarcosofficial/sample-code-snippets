@@ -1,0 +1,23 @@
+export const LOGIN = "/login";
+export const FORGOT_PASSWORD = "/forgot-password";
+export const RESET_PASSWORD = "/reset-password";
+export const CHANGE_PASSWORD = "/change-password";
+export const UPDATE_PROFILE = "/update-profile";
+
+export const CATEGORY_SLIDES = "/category-slides";
+export const FEATURED_CATEGORIES = "/featured-categories";
+export const NAVBAR_CATEGORIES = "/fetch-category";
+export const CATEGORIES = "/categories";
+export const VENDORS = "/vendors";
+export const NEW_VENDORS = "/new-vendors";
+export const TRENDING_VENDORS = "/vendors/trending";
+export const LATEST_FEEDBACKS = "/feedbacks/latest-feedback";
+export const SAVE_FEEDBACK = "/feedbacks/store";
+export const FEEDBACK_LIKE = "/feedbacks/like";
+export const FEEDBACKS = "/feedbacks";
+export const CONTACT = "/contact";
+export const FILTERS = "/search-filters";
+export const SEARCH_CATEGORIES = "/search-categories";
+export const SEARCH_VENDORS = "/search-vendors";
+export const VENDOR_FEEDBACKS = "/feedbacks/vendor";
+export const CATEGORY_FEEDBACKS = "/feedbacks/category";

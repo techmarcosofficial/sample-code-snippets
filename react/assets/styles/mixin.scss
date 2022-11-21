@@ -1,0 +1,112 @@
+@mixin width($width) {
+  width: percentage($width/100 * 1);
+}
+@mixin wh($w: 100%, $h: 100%) {
+  width: $w;
+  height: $h;
+}
+@mixin t-t($t: uppercase) {
+  text-transform: $t;
+}
+@mixin padding($tb: 20px, $lr: 20px) {
+  padding: $tb $lr;
+}
+@mixin icon-background($icon-url) {
+  background-image: url($icon-url);
+}
+@mixin after-content(
+  $w: 0,
+  $h: 0,
+  $left: 0,
+  $top: 0,
+  $bg: #fff,
+  $posi: relative
+) {
+  content: "";
+  width: $w;
+  height: $h;
+  left: $left;
+  top: $top;
+  background: $bg;
+  position: $posi;
+}
+@mixin rgba($opacity: 0.7) {
+  background: rgba(0, 0, 0, $opacity);
+}
+@mixin l-space($ls: 1px) {
+  letter-spacing: $ls;
+}
+
+@mixin multi-ellipse($line-clamp: 2) {
+  display: -webkit-box;
+  display: -moz-box;
+  line-clamp: $line-clamp;
+  -webkit-line-clamp: $line-clamp;
+  -moz-line-clamp: $line-clamp;
+  box-orient: vertical;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  overflow: hidden;
+}
+@mixin inline-block($va: middle) {
+  display: inline-block;
+  vertical-align: $va;
+}
+@mixin blur($bv: 8px) {
+  filter: blur($bv);
+  -webkit-filter: blur($bv);
+}
+@mixin absolute-100($l: 0, $t: 0, $w: 100%, $h: 100%) {
+  position: absolute;
+  width: $w;
+  height: $h;
+  left: $l;
+  top: $t;
+}
+@mixin center($horizontal: true, $vertical: true) {
+  position: absolute;
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+    transform: translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+$prefixes: "webkit", "moz", "ms", "o", "none";
+@mixin prefix($property, $arguments) {
+  @each $prefix in $prefixes {
+    @if $prefix == "none" {
+      #{$property}: $arguments;
+    } @else {
+      -#{$prefix}-#{$property}: $arguments;
+    }
+  }
+}
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+
+
+@mixin wrapper($w: 100%){
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  max-width: $w;
+}

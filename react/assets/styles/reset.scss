@@ -1,0 +1,54 @@
+/************************ reset css starts here ************************/
+* {margin: 0;padding: 0;}
+body, html {position: relative}
+html {height: 100%;}
+ol, ul {list-style: none}
+blockquote, q {quotes: none}
+blockquote:after, blockquote:before, q:after, q:before {content: ''}
+table {border-collapse: collapse;border-spacing: 0}
+.btn:active:focus, .btn:focus, a:focus, button:focus {outline: 0;text-decoration: none;}
+input::-ms-clear, input::-ms-reveal {display: none;}
+input {filter: none;}
+textarea {resize: none;}
+select {-webkit-appearance: none;-moz-appearance: none;}
+select::-ms-expand {display: none;}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0;}
+input[type=number] {-moz-appearance:textfield;}
+input[type=file], input[type=file]::-webkit-file-upload-button {cursor: pointer;}
+input[type=checkbox] {cursor: pointer;}
+::selection {color: $white;background-color: $theme-color;}
+::-moz-selection {color: $white;background-color: $theme-color;}
+.theme-ip:-moz-placeholder {opacity: 1;color: $text-light-2;font-size: inherit;}
+.theme-ip::-webkit-input-placeholder {opacity: 1;color: $text-light-2;font-size: inherit;}
+.theme-ip::-moz-placeholder {opacity: 1;color: #979797;font-size: inherit;}
+.theme-ip:-ms-input-placeholder {opacity: 1 !important;color: $text-light-2;font-size: inherit;}
+.theme-ip::-ms-input-placeholder {opacity: 1;color: $text-light-2;font-size: inherit;}
+.theme-ip::placeholder {opacity: 1;color: $text-light-2;font-size: inherit;}
+.plain-ip:-moz-placeholder {opacity: 1;color: $placeholder-color;}
+.plain-ip::-webkit-input-placeholder {opacity: 1;color: $placeholder-color;}
+.plain-ip::-moz-placeholder {opacity: 1;color: $placeholder-color;}
+.plain-ip:-ms-input-placeholder {opacity: 1 !important;color: $placeholder-color;}
+.plain-ip::-ms-input-placeholder {opacity: 1;color: $placeholder-color;}
+.plain-ip::placeholder {opacity: 1;color: $placeholder-color;}
+
+.s-ip:-moz-placeholder {opacity: 0.7;color: $white;font-size: inherit;}
+.s-ip::-webkit-input-placeholder {opacity: 0.7;color: $white;font-size: inherit;}
+.s-ip::-moz-placeholder {opacity: 0.7;color: $white;font-size: inherit;}
+.s-ip:-ms-input-placeholder {opacity: 0.7 !important;color: $white;font-size: inherit;}
+.s-ip::-ms-input-placeholder {opacity: 0.7;color: $white;font-size: inherit;}
+.s-ip::placeholder {opacity: 0.7;color: $white;font-size: inherit;}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active  {@include prefix(box-shadow, 0 0 0 30px $white inset !important);}
+a, a:hover, a:focus {text-decoration: none;}
+a {color: $theme-color;
+  &:hover {color: lighten($theme-color, 10);}
+  &.line {display: inline-block;text-decoration: underline;}
+}
+a.text-theme:hover, a.text-black:hover, {color: $theme-color;}
+p, h1, h2, h3, h4, h5, h6, label {margin-bottom: 0;}
+button:focus, .theme-ip:focus, input:focus {outline: none;}
+:focus {outline: 0;}

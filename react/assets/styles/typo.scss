@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'AvenirBook';
+    src: url('../fonts/AvenirBook.eot');
+    src: url('../fonts/AvenirBook.eot') format('embedded-opentype'),
+         url('../fonts/AvenirBook.woff2') format('woff2'),
+         url('../fonts/AvenirBook.woff') format('woff'),
+         url('../fonts/AvenirBook.ttf') format('truetype'),
+         url('../fonts/AvenirBook.svg#AvenirBook') format('svg');
+         font-weight: normal;
+         font-style: normal;
+         font-display: swap;
+}
+@font-face {
+    font-family: 'AvenirLight';
+    src: url('../fonts/AvenirLight.eot');
+    src: url('../fonts/AvenirLight.eot') format('embedded-opentype'),
+         url('../fonts/AvenirLight.woff2') format('woff2'),
+         url('../fonts/AvenirLight.woff') format('woff'),
+         url('../fonts/AvenirLight.ttf') format('truetype'),
+         url('../fonts/AvenirLight.svg#AvenirLight') format('svg');
+         font-weight: normal;
+         font-style: normal;
+         font-display: swap;
+}
+@font-face {
+    font-family: 'AvenirMedium';
+    src: url('../fonts/AvenirMedium.eot');
+    src: url('../fonts/AvenirMedium.eot') format('embedded-opentype'),
+         url('../fonts/AvenirMedium.woff2') format('woff2'),
+         url('../fonts/AvenirMedium.woff') format('woff'),
+         url('../fonts/AvenirMedium.ttf') format('truetype'),
+         url('../fonts/AvenirMedium.svg#AvenirMedium') format('svg');
+         font-weight: normal;
+         font-style: normal;
+         font-display: swap;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir-Roman.eot');
+    src: url('../fonts/Avenir-Roman.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Avenir-Roman.woff2') format('woff2'),
+        url('../fonts/Avenir-Roman.woff') format('woff'),
+        url('../fonts/Avenir-Roman.ttf') format('truetype'),
+        url('../fonts/Avenir-Roman.svg#Avenir-Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Black Oblique';
+    src: url('../fonts/Avenir-BlackOblique.eot');
+    src: url('../fonts/Avenir-BlackOblique.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Avenir-BlackOblique.woff2') format('woff2'),
+        url('../fonts/Avenir-BlackOblique.woff') format('woff'),
+        url('../fonts/Avenir-BlackOblique.ttf') format('truetype'),
+        url('../fonts/Avenir-BlackOblique.svg#Avenir-BlackOblique') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirHeavy';
+    src: url('../fonts/AvenirHeavy.eot');
+    src: url('../fonts/AvenirHeavy.eot') format('embedded-opentype'),
+         url('../fonts/AvenirHeavy.woff2') format('woff2'),
+         url('../fonts/AvenirHeavy.woff') format('woff'),
+         url('../fonts/AvenirHeavy.ttf') format('truetype'),
+         url('../fonts/AvenirHeavy.svg#AvenirHeavy') format('svg');
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'AvenirBlack';
+    src: url('../fonts/AvenirBlack.eot');
+    src: url('../fonts/AvenirBlack.eot') format('embedded-opentype'),
+         url('../fonts/AvenirBlack.woff2') format('woff2'),
+         url('../fonts/AvenirBlack.woff') format('woff'),
+         url('../fonts/AvenirBlack.ttf') format('truetype'),
+         url('../fonts/AvenirBlack.svg#AvenirBlack') format('svg');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/NotoSans-Light.eot');
+    src: url('../fonts/NotoSans-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSans-Light.woff2') format('woff2'),
+        url('../fonts/NotoSans-Light.woff') format('woff'),
+        url('../fonts/NotoSans-Light.ttf') format('truetype'),
+        url('../fonts/NotoSans-Light.svg#NotoSans-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/NotoSans-BoldItalic.eot');
+    src: url('../fonts/NotoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSans-BoldItalic.woff2') format('woff2'),
+        url('../fonts/NotoSans-BoldItalic.woff') format('woff'),
+        url('../fonts/NotoSans-BoldItalic.ttf') format('truetype'),
+        url('../fonts/NotoSans-BoldItalic.svg#NotoSans-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('../fonts/NotoSans-Bold.eot');
+    src: url('../fonts/NotoSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSans-Bold.woff2') format('woff2'),
+        url('../fonts/NotoSans-Bold.woff') format('woff'),
+        url('../fonts/NotoSans-Bold.ttf') format('truetype'),
+        url('../fonts/NotoSans-Bold.svg#NotoSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Noto Sans ExtLt';
+    src: url('../fonts/NotoSans-ExtraLight.eot');
+    src: url('../fonts/NotoSans-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSans-ExtraLight.woff2') format('woff2'),
+        url('../fonts/NotoSans-ExtraLight.woff') format('woff'),
+        url('../fonts/NotoSans-ExtraLight.ttf') format('truetype'),
+        url('../fonts/NotoSans-ExtraLight.svg#NotoSans-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Noto Sans SemBd';
+    src: url('../fonts/NotoSans-SemiBold.eot');
+    src: url('../fonts/NotoSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NotoSans-SemiBold.woff2') format('woff2'),
+        url('../fonts/NotoSans-SemiBold.woff') format('woff'),
+        url('../fonts/NotoSans-SemiBold.ttf') format('truetype'),
+        url('../fonts/NotoSans-SemiBold.svg#NotoSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+.f-light {font-family: 'AvenirLight';}
+.f-normal {font-weight: normal;font-family: 'Avenir';}
+.f-med {font-weight: normal;font-family: 'AvenirMedium';}
+.f-heavy {font-family: 'AvenirHeavy';}
+.f-medium {font-family: 'AvenirBook';}
+.f-bold {font-family: 'AvenirBlack';}
+.f-bolder {font-weight: 900;font-family: 'Avenir Black Oblique';font-style: italic;}
+
+.n-normal {font-family: 'Noto Sans';font-weight: 300;}
+.n-light {font-weight: 200;font-family: 'Noto Sans ExtLt';}
+.n-semi {    font-family: 'Noto Sans SemBd';font-weight: 600;}
+.n-bold {font-family: 'Noto Sans';font-weight: bold;font-style: italic;}
+.n-bolder {font-family: 'Noto Sans';font-weight: bold;}
