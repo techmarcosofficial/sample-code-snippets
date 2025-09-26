@@ -235,8 +235,6 @@ class ListingHelper extends Helper {
                         <div class="clear-both"></div>
                     </div>
                 <?php } ?>
-                <link href="https://vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet"/>
-                <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
                 <div id="videoPlayerListModal"
                      class="text-left g-color-white g-bg-black g-overflow-y-auto "
                      style="display: none; width: auto; min-width: 640px; height: auto; min-height: 480px; padding: 1%;">
@@ -254,8 +252,7 @@ class ListingHelper extends Helper {
                                 height="480"
                                 data-setup="{}"
                         ></video>
-                        <script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
-
+                
                     </div>
                     <div class="clear-both"></div>
                 </div>

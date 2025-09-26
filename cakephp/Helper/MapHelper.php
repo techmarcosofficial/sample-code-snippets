@@ -30,7 +30,5 @@ class MapHelper extends Helper {
         return implode(", ", array_filter($address));
     }
     
-    public function marker($object = null, $markerIcon = "https://www.google.com/intl/en_us/mapfiles/ms/micons/green-dot.png") {
-        return [$this->infoWindow($object), $object->lat, $object->lng, $markerIcon];
-    }
+    
 }
