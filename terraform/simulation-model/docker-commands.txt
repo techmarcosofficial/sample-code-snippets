@@ -1,0 +1,24 @@
+sudo docker --version
+sudo systemctl restart docker
+ls -l /var/run/docker.sock
+sudo chown root:docker /var/run/docker.sock
+sudo systemctl restart docker
+sudo usermod -aG docker $USER
+groups $USER
+sudo systemctl restart docker
+sudo chmod 666 /var/run/docker.sock
+sudo systemctl restart docker
+sudo systemctl status docker
+cd Dev/simulation-model/
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 314764559768.dkr.ecr.us-east-1.amazonaws.com
+cd ../
+cd simulation-model/
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 314764559768.dkr.ecr.us-east-1.amazonaws.com
+sudo systemctl start docker
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 314764559768.dkr.ecr.us-east-1.amazonaws.com
+docker build -t model-3-repository .
+docker tag model-3-repository:latest 314764559768.dkr.ecr.us-east-1.amazonaws.com/model-3-repository:latest
+docker push 314764559768.dkr.ecr.us-east-1.amazonaws.com/model-3-repository:latest
+docker build -t model-3-repository .
+docker tag model-3-repository:latest 314764559768.dkr.ecr.us-east-1.amazonaws.com/model-3-repository:latest
+docker push 314764559768.dkr.ecr.us-east-1.amazonaws.com/model-3-repository:latest
