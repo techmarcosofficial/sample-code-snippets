@@ -9,7 +9,7 @@ class HubspotController extends Controller {
 
     public $clientId = 'df28a5f2-87ad-4781-9510-f548b8cefa63';
     public  $clientSecret = '0046ce8a-c330-4d95-bfe1-386f556f007f';
-    public  $redirectUri = 'https://devapi.subpop.health/hubspot-redirect';
+    public  $redirectUri = 'https://devapi.subpop.marcos/hubspot-redirect';
 
     public function hook() {
         pr($_REQUEST);
@@ -91,7 +91,7 @@ class HubspotController extends Controller {
                             "type" => "IFRAME",
                             "width" => 890,
                             "height" => 748,
-                            "uri" => 'https://devapi.subpop.health/hubspot-invoices',
+                            "uri" => 'https://devapi.subpop.marcos/hubspot-invoices',
                             "label" => "Invoice History"
                         ]
                     ]
