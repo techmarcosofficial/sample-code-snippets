@@ -18,7 +18,6 @@ import PageNotFound from "./pages/PageNotFound";
 import PrivateRoute from "./components/PrivateRoute";
 
 const client = new ApolloClient({
-  // 'https://flyby-gateway.herokuapp.com/',
   uri: process.env.REACT_APP_GRAPHQL_URL, // specifies the URL of our GraphQL server.
   cache: new InMemoryCache(), // Apollo Client uses to cache query results after fetching them.
   connectToDevTools: true,
